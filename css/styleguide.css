@@ -1,0 +1,35 @@
+:root {
+  --mist-gray: #c4c4c4;
+  --white: #ffffff;
+
+  --font-size-l: 132px;
+  --font-size-m: 48px;
+  --font-size-s: 36px;
+  --font-size-xs: 12px;
+
+  --font-family-mont-heavydemo: "Mont-HeavyDEMO", Helvetica;
+}
+.mont-heavydemo-normal-mist-gray-132px {
+  color: var(--mist-gray);
+  font-family: var(--font-family-mont-heavydemo);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+.mont-heavydemo-normal-white-36px {
+  color: var(--white);
+  font-family: var(--font-family-mont-heavydemo);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+.mont-heavydemo-normal-white-48px {
+  color: var(--white);
+  font-family: var(--font-family-mont-heavydemo);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.border-1px-white {
+  border: 1px solid var(--white);
+}
