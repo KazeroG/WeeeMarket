@@ -5,6 +5,15 @@
   "private": true,
   "repository": "git@github.com:KazeroG/WeeeMarket.git",
   "author": "Francis-Olivier Couture",
-  "dependencies": {
+  "scripts": {
+    "start": "eleventy --serve & postcss src/css/tailwind.css --o _tmp/style.css --watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.14",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.2"
   }
 }
