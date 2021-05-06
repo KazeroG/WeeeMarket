@@ -1,0 +1,10 @@
+{
+  "name": "WeeeMarket",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "repository": "git@github.com:KazeroG/WeeeMarket.git",
+  "author": "Francis-Olivier Couture",
+  "dependencies": {
+  }
+}
